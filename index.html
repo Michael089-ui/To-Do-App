@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>To-Do-App</h1>
+    <form id="task-form">
+        <input type="text" id="task-input" placeholder="Task" required>
+        <input type="text" id="desc-input" placeholder="Description" required>
+        <button type="submit">Añadir</button>
+    </form>
+    <table id="todo-table">
+        <thead>
+            <tr>
+                <th>Task</th>
+                <th>Description</th>
+                <th>Check list</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Las tareas aparecerán aquí -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
